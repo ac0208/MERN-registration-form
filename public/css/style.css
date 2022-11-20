@@ -1,0 +1,8 @@
+/* In this I written the css which was used earlier in index.html in order to check whether the server is working or not.Later I deleted the
+index.htm file to make the project dynamic and this file got of no use. */
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    text-shadow: -2px -2px black;
+}

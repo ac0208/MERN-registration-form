@@ -1,0 +1,28 @@
+{{!-- This the home page of the project that we see when we open the port 3000 on the browser. In the bootstrap is used and in order to render
+navbar on this page we have used {{>navbar}}  --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body style="background-color:#3daf49bb;">
+  {{>navbar}}
+  <center>
+   <img src="OIP.jfif" style="margin-top:2% ;border:2px solid black; height:200px; margin-right:39%;">
+   <img src="Screenshot (103).png" style="height:200px;margin-top:2%; border:2px solid black;">
+  <div class="container">
+  <div class="jumbotron" style="margin-top:3.2% ; ">
+  <h1 class="display-4" style="text-decoration:underline;">MERN BACKEND PROJECT</h1>
+  <p class="lead">User Registration in MERN STACK</p>
+  <hr class="my-4">
+  <p>mongodb, express, react, node, nodemon, mongoose and hbs </p>
+  <a class="btn btn-primary btn-lg" href="https://www.geeksforgeeks.org/mongodb-an-introduction/" role="button" target="_blank">Mongodb Tutorial</a>
+  </div>
+  </div>
+  </center>
+</body>
+</html>
