@@ -40,7 +40,7 @@ const partials_path=path.join(__dirname,"../templates/partials")
 // From line 38-64 we have used the try and catch method so that we are able to see the ouptup on the database.
 // Here we have also used the req and res method do that we can request in the form to get us register.
 /*As here we can see if the password is confirmed the same then it requests the database to so the credentials entered by us and if 
-the passwordis not same the it gives the error as it will not render us to the home page*/
+the password is not same the it gives the error as it will not render us to the home page rather it will show what the error is. */
         app.post("/register",async(req,res)=>{
             try{
                 const password=req.body.password;
